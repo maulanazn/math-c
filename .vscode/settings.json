@@ -82,7 +82,15 @@
         "cpp_thing.h": "c",
         "c_thing.h": "c",
         "stdio.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "number.h": "c",
+        "memory.h": "c",
+        "features.h": "c",
+        "stubs.h": "c",
+        "stubs-64.h": "c",
+        "c_reference.h": "c",
+        "pointer.h": "c",
+        "structure.h": "c"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "C_Cpp.errorSquiggles": "Disabled",
