@@ -90,7 +90,10 @@
         "stubs-64.h": "c",
         "c_reference.h": "c",
         "pointer.h": "c",
-        "structure.h": "c"
+        "structure.h": "c",
+        "console.h": "c",
+        "kd.h": "c",
+        "file_stream.h": "c"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "C_Cpp.errorSquiggles": "Disabled",

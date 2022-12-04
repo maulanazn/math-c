@@ -4,3 +4,5 @@
 #include <ctype.h>
 
 int structure();
+int TheUnion();
+int TheEnum();

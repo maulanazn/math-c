@@ -6,6 +6,15 @@ struct city {
     int dimension_of_population[10][10][10];
 } citizen;
 
+
+union Untrue {
+    int neutron;
+    unsigned int proton;
+    signed int electron;
+}untrue;
+
+enum COLOR {RED, YELLOW, BLUE};
+
 char display_city(struct city cities) {
     char *city_name = cities.names;
 
@@ -28,6 +37,37 @@ int structure() {
     u_int64_t *malloc_citizen_population = malloc(citizen_population);
     printf("%ud\n", citizen_population);
     free(malloc_citizen_population);
+
+    return 0;
+}
+
+void theelectron() {
+    union Untrue *unt;
+
+    unt = &untrue;
+    int electron_num = (unt->electron = -10);
+
+    printf("%d\n", electron_num);
+}
+
+void theproton() {
+    union Untrue *unt;
+    unt = &untrue;
+    
+    int proton_num = (unt->proton = 10);
+    printf("%d\n", proton_num);
+}
+
+int TheUnion() {    
+
+    theelectron();
+    theproton();
+
+    return 0;
+}
+
+int TheEnum() {
+    printf("%d", RED);
 
     return 0;
 }
