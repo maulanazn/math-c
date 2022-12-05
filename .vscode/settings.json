@@ -93,7 +93,8 @@
         "structure.h": "c",
         "console.h": "c",
         "kd.h": "c",
-        "file_stream.h": "c"
+        "file_stream.h": "c",
+        "operator.h": "c"
     },
     "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
     "C_Cpp.errorSquiggles": "Disabled",

@@ -3,5 +3,6 @@
 #include "structure.h"
 #include "console.h"
 #include "file_stream.h"
+#include "operator.h"
 
 void run();
