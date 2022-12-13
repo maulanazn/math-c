@@ -10,7 +10,7 @@ int fib_from_last_number(int n) {
 
         prev = last;
         last = next;
-
+        
         printf("%d\n", next);
     }
 
