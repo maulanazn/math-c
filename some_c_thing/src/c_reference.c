@@ -1,5 +1,10 @@
-#include "../include/c_reference.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+int case_1();
+int array_of_number();
+int array_of_string();
 
 void run() {
-    asking();
+    array_of_string();
 }

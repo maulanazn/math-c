@@ -1,7 +1,8 @@
-#include "include/c_reference.h"
+#include <stdio.h>
 
-int main()
-{  
+void run();
+
+int main() {  
     run();
     
     return 0;

@@ -1,4 +1,5 @@
-#include "../include/number.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 int case_1() {
     int N, result;
