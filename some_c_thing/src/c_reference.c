@@ -4,7 +4,10 @@
 int case_1();
 int array_of_number();
 int array_of_string();
+int limiton();
+int imaginaries();
+int string_constant();
 
 void run() {
-    array_of_string();
+    string_constant();
 }

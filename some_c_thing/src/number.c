@@ -14,3 +14,11 @@ int array_of_number() {
    
     return 0;
 }
+
+int imaginaries() {
+    _Complex double num, num1, num2;
+
+    num = 22.22i;
+
+    printf("%f\n", num);
+}

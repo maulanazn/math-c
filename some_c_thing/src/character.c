@@ -10,3 +10,11 @@ int array_of_string() {
     
     return 0;
 }
+
+int string_constant() {
+    volatile char myname[7] = "maulana";
+
+    printf("%s\n", myname);
+
+    return 0;
+}

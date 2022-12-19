@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <limits.h>
 
 struct askme {
     char name;
@@ -55,3 +56,11 @@ int askmeletter() {
 
     return 0;
 }
+
+int limiton() {
+    float itsfloat;
+    printf("%f\n", sizeof(itsfloat));
+
+   return 0;
+}
+
