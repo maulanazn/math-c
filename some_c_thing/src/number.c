@@ -3,22 +3,39 @@
 
 #define MAX 12
 
-int array_of_number() {
+union Number {
     int n;
+    int i;
+    int num_imaginary;
+}num;
+
+int array_of_number() {
+    union Number *nm;
+    nm = &num;
 
     printf("enter how many number you want to iterate\n");
-    scanf("%d", &n);
+    scanf("%d", &nm->n);
 
-    for (int i = n; i > 0; i--)
-        printf("Number %d\n", i);
-   
+    for (nm->i = nm->n; nm->i > 0; nm->i--)
+        printf("Number %d\n", nm->i);
+    
+
     return 0;
 }
 
 int imaginaries() {
-    _Complex double num, num1, num2;
+    union Number *nm;
+    nm = &num;
 
-    num = 22.22i;
+    nm->num_imaginary = 10;
+    int *ptr_numimaginary = &nm->num_imaginary;
 
-    printf("%f\n", num);
+    int *ptr_numimaginary1 = ptr_numimaginary;
+
+    ++ptr_numimaginary;
+
+    {
+        printf("%d\n", *ptr_numimaginary1);
+    }
+    return 0;
 }

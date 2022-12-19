@@ -9,5 +9,5 @@ int imaginaries();
 int string_constant();
 
 void run() {
-    string_constant();
+    array_of_number();
 }
