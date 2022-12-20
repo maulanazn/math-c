@@ -12,9 +12,16 @@ int array_of_string() {
 }
 
 int string_constant() {
-    volatile char myname[7] = "maulana";
+    char iknowmyname[] = "maulana";
 
-    printf("%s\n", myname);
+    printf("%s\n", iknowmyname);
+    return 0;
+}
+
+int string_operator() {
+    char *name = "maulana";
+
+    printf("%s\n", strlen(name));
 
     return 0;
 }

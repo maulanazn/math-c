@@ -7,7 +7,8 @@ int array_of_string();
 int limiton();
 int imaginaries();
 int string_constant();
+int string_operator();
 
 void run() {
-    array_of_number();
+    string_operator();
 }
