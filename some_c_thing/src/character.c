@@ -19,9 +19,7 @@ int string_constant() {
 }
 
 int string_operator() {
-    char *name = "maulana";
-
-    printf("%s\n", strlen(name));
-
+    printf("operate: \n");
+    
     return 0;
 }

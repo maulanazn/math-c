@@ -12,7 +12,7 @@ struct askme {
 int asking() {
     struct askme *Akm;
     Akm = &akm;
-
+    
     do {
         Akm->name = getchar();
 
